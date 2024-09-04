@@ -21,7 +21,7 @@ jobs:
   tests:
     name: Run tests
     runs-on: ubuntu-latest
-    if: github.repository == 'ohmyzsh/ohmyzsh'
+    if: github.repository == 'nxpkg/ohmyzsh'
     steps:
       - name: Set up git repository
         uses: actions/checkout@v4
